@@ -104,8 +104,8 @@ This application uses convex as database for storing data securely. You need to 
 - Open the [convex.json](settings/config/convex.json) in gim directory and configure the files such as;
 - Paste your key and url as shown below and save.
 
-    "convex_token": "PASTE_CONVEX_TOKEN_HERE",
-    "convex_url": "PASTE_CONVEX_URL_HERE"
+        "convex_token": "PASTE_CONVEX_TOKEN_HERE",
+        "convex_url": "PASTE_CONVEX_URL_HERE"
 
 
 Create an account with [OpenAI](https://platform.openai.com/apps)
