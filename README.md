@@ -14,7 +14,7 @@
 <a href="https://github.com/mitmelon/gim/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mitmelon/gim?color=2b9348"></a>
 <a href="https://github.com/mitmelon/gim/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mitmelon/gim?color=2b9348" alt="License Badge"/></a> [![Total Downloads](http://poser.pugx.org/mitmelon/gim/downloads)](https://packagist.org/packages/mitmelon/gim)
 
-<i>Loved the project? Please consider [donating](https://paypal.me/mitmelon) to help it improve!</i>
+<i>Loved the project? Please consider [donating](https://flutterwave.com/donate/6sdbxd8wlohx) to help it improve!</i>
 
 </div>
 
