@@ -116,7 +116,6 @@ Create an account with [OpenAI](https://platform.openai.com/apps)
 
 Open the [app](settings/config/app.json) and configure the variables;
 
-        "app_deployer_id": "", //Leave as blank (the application will auto set this)
         "app_domain": "", //Your application domain where this application is
         "app_timezone": "", //App timezone
         "app_language": "en", //App language - please note that only english is available now
@@ -125,6 +124,7 @@ Open the [app](settings/config/app.json) and configure the variables;
         "hook_email": "", //If its email, you are required to set the email
         "hook_secret": "" //if webhook then set the secret of your webhook [use hmac sha512 to verify the APP_NAME-X-Signature' header. Please note that the APP_NAME is a constant set from whatever you input on the "app_name"]
 
+If you are using the webhook type, please note that json POST data will be pushed to your webhook url containing all the datas.
 
 Lastly, You can now configure the [mail.json](settings/config/mail.json) file with your smtp configurations to send emails if using hook_type as email
 
