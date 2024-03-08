@@ -1,5 +1,5 @@
 <h1 align="center">GIM KYC Application
-<a href="#" target="_blank"><img src="https://github.com/mitmelon/gim/assets/55149512/c4f67659-a5c6-441e-b7d6-59b6bd47a404" alt="gim - General Identity Management - This is a KYC system for collecting and processing personal information's, facial biometrics, ID Cards and Signature."></a></h1>
+<a href="#" target="_blank"><img src="https://github.com/mitmelon/gim/assets/55149512/bff475c0-cb4c-4d82-a5de-bccae18373ef" alt="gim - General Identity Management - This is a KYC system for collecting and processing personal information's, facial biometrics, ID Cards and Signature."></a></h1>
 <div align="center">
 <a href="https://t.me/+7jfbiGKhn55iODlk">Join Telegram</a>
 <a href="https://twitter.com/manomitehq" ><img src="https://img.shields.io/twitter/follow/manomitehq.svg?style=social" /> </a>
