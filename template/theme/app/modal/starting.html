@@ -1,0 +1,221 @@
+<div class="modal modal-blur fade" id="gimForm" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Identity Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body identityPage">
+        <div class="text-center">
+          <div class="">
+            <h5 class="title">Personal Informations</h5>
+            <p class="sub-title">Please make sure that your personal information is same as the one on your identity
+              documents.</p>
+          </div>
+        </div>
+        <form action="#" method="post" autocomplete="off" class="personalIdentity">
+          <div class="nk-kycfm-content">
+            <div class="row g-4 mt-3">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="form-label-group">
+                    <label class="form-label">Full Name<span class="text-danger">*</span></label>
+                  </div>
+                  <div class="form-control-group alternate-wrap">
+                    <input type="text" name="fname" id="fname" class="form-control alternate-input"
+                      placeholder="Your full name" required>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="form-label-group">
+                    <label class="form-label">Phone Number <span class="text-danger">*</span></label>
+                  </div>
+                  <div class="form-control-group alternate-wrap">
+                    <input type="text" name="phone" id="phone" class="form-control phone alternate-input"
+                      placeholder="8000000000" required>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="form-label-group">
+                    <label class="form-label">Date of birth<span class="text-danger">*</span></label>
+                  </div>
+                  <div class="form-control-group alternate-wrap">
+                    <input type="text" name="dob" id="datepicker-default" placeholder="yyyy-mm-dd"
+                      class="form-control alternate-input" required />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="form-label-group">
+                    <label class="form-label">Gender <span class="text-danger">*</span></label>
+                  </div>
+                  <div class="form-control-group alternate-wrap">
+                    <select class="form-control selector alternate-input" id="gender" name="gender" autocomplete="off"
+                      placeholder="Select Gender">
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="others">Others</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nk-kycfm-head mt-5">
+            <hr>
+            <div class="nk-kycfm-title">
+              <h5 class="title">Your Address</h5>
+              <p class="sub-title">Tell us where you live. This will help us tailor custom solutions to you based on
+                your location.</p>
+            </div>
+            <hr>
+          </div>
+          <div class="nk-kycfm-content">
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="form-label-group">
+                    <label class="form-label">Address <span class="text-danger">*</span></label>
+                  </div>
+                  <div class="form-control-group alternate-wrap">
+                    <input type="text" id="address" name="address" placeholder="1021 Alabama street, No where town"
+                      class="form-control alternate-input" required>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="form-label-group">
+                    <label class="form-label">City <span class="text-danger">*</span></label>
+                  </div>
+                  <div class="form-control-group alternate-wrap">
+                    <input type="text" id="rcity" name="rcity" placeholder="Cave" class="form-control alternate-input"
+                      required>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="form-label-group">
+                    <label class="form-label">State <span class="text-danger">*</span></label>
+                  </div>
+                  <div class="form-control-group alternate-wrap">
+                    <input type="text" id="rstate" name="rstate" placeholder="Rock" class="form-control alternate-input"
+                      required>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="form-label-group">
+                    <label class="form-label">Nationality <span class="text-danger">*</span></label>
+                  </div>
+                  <div class="form-control-group alternate-wrap">
+                    <select name="rcountry" id="rcountry" class="form-control getCountryList alternate-input"
+                      autocomplete="off" placeholder="Enter country"></select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nk-kycfm-head mt-5">
+              <hr>
+              <div class="nk-kycfm-title">
+                <h5 class="title">Biography</h5>
+                <p class="sub-title">Tell us about yourself. This might help {#app_name#} to quckily process your
+                  apllications and verify your account. Please if you are disabled, kindly note it inside the about
+                  yourself input.</p>
+              </div>
+              <hr>
+            </div>
+            <div class="nk-kycfm-content">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div class="form-label-group">
+                      <label class="form-label">Primary language<span class="text-danger">*</span></label>
+                    </div>
+                    <div class="form-control-group alternate-wrap">
+                      <input id="getLangList" name="language" class="form-control alternate-input" type="text"
+                        autocomplete="off" placeholder="Enter language" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div class="form-label-group">
+                      <label class="form-label">Race<span class="text-danger">*</span></label>
+                    </div>
+                    <div class="form-control-group alternate-wrap">
+                      <select class="form-control selector alternate-input" id="race" name="race" autocomplete="off"
+                        placeholder="Select Race">
+                        <option value="American Indian or Alaska Native">American Indian or Alaska Native</option>
+                        <option value="Asian">Asian</option>
+                        <option value="Black or African American">Black or African American</option>
+                        <option value="Hispanic or Latino">Hispanic or Latino</option>
+                        <option value="Native Hawaiian or Other Pacific Islander">Native Hawaiian or Other Pacific
+                          Islander</option>
+                        <option value="White">White</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div class="form-label-group">
+                      <label class="form-label">Country of Origin<span class="text-danger">*</span></label>
+                    </div>
+                    <div class="form-control-wrap alternate-wrap">
+                      <select name="country" id="country" class="form-control getCountryList alternate-input"
+                        autocomplete="off" placeholder="Enter country"></select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div class="form-label-group">
+                      <label class="form-label">State of Origin <span class="text-danger">*</span></label>
+                    </div>
+                    <div class="form-control-group alternate-wrap">
+                      <input type="text" id="state" name="state" placeholder="Rock" class="form-control alternate-input"
+                        required>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div class="form-label-group">
+                      <label class="form-label">Tell us about yourself <span class="text-danger">*</span></label>
+                    </div>
+                    <div class="form-control-group alternate-wrap">
+                      <textarea type="text" id="about" name="about" rows="7"
+                        placeholder="I am a passionate soul that loves eating cakes"
+                        class="form-control alternate-input" required></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary ms-auto" id="subPerm">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M12 5l0 14" />
+                  <path d="M5 12l14 0" />
+                </svg>
+                Submit
+              </button>
+            </div>
+            {#csrf_root#}
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

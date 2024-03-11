@@ -1,0 +1,9 @@
+{
+    "mail_driver": "SMTP",
+    "smtp_host": "",
+    "smtp_port": "587",
+    "smtp_username": "",
+    "smtp_password": "",
+    "smtp_sender": "",
+    "smtp_reply_email": ""
+}

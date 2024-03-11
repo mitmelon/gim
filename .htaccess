@@ -1,0 +1,14 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-l
+RewriteRule ^(.*)$ index.php/$1
+
+Options All -Indexes
+
+<FilesMatch "\.(htaccess|htpasswd|ini|psd|log|sh|xml|cgi|ini|email|bot|lock|xls|env|lock|html|txt)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>

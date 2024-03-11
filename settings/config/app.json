@@ -1,0 +1,11 @@
+{
+    "app_name": "GIM",
+    "app_deployer_id": "",
+    "app_domain": "",
+    "app_timezone": "Africa/Lagos",
+    "app_language": "en",
+    "contact": "",
+    "hook_type": "email",
+    "hook_email": "",
+    "hook_secret": ""
+}

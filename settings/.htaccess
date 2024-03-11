@@ -1,0 +1,3 @@
+RewriteEngine on
+Options All -Indexes
+deny from all

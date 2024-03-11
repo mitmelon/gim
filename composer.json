@@ -1,0 +1,99 @@
+{
+  "authors": [
+    {
+      "email": "manomitehq@gmail.com",
+      "name": "Manomite"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Manomite\\": [
+        "src/",
+        "kernel/"
+      ]
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    },
+    "github-oauth": {
+
+    }
+  },
+  "description": "Advanced REST API email and sms security system that protects emails and sms inbox from spam and cyber threats. Perform email &amp; sms grouping, notifications and other interesting features.",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "name": "mitmelon/eye-mail",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/mitmelon/auth"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/mitmelon/Vars-Updated"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/mitmelon/yasumi"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/mitmelon/Filebase"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/mitmelon/2fa-library"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/mitmelon/bsc-php"
+    }
+  ],
+  "require": {
+    "mobiledetect/mobiledetectlib": "^3.74",
+    "http-interop/http-factory-guzzle": "^1.2",
+    "symfony/process": "^6.3",
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.6",
+    "slim/csrf": "^1.3",
+    "php-di/php-di": "^7.0",
+    "beberlei/assert": "^3.2",
+    "egulias/email-validator": "^3.1.1",
+    "ezyang/htmlpurifier": "^4.13",
+    "gioni06/gpt3-tokenizer": "*",
+    "guzzlehttp/guzzle": "^7.5",
+    "jpkleemans/htaccess-firewall": "dev-master",
+    "kriswallsmith/buzz": "^1.1",
+    "laminas/laminas-diactoros": "^2.8",
+    "laminas/laminas-httphandlerrunner": "^2.1",
+    "league/mime-type-detection": "^1.11",
+    "league/route": "^5.1",
+    "m1/vars": "dev-master",
+    "matomo/device-detector": "^4.2.3",
+    "mpdf/mpdf": "^8.1",
+    "nesbot/carbon": "^2.67",
+    "nyholm/psr7": "^1.5",
+    "paragonie/halite": "^5",
+    "paragonie/random-lib": "^2.0",
+    "php": ">=8.1",
+    "php-curl-class/php-curl-class": "^9.13",
+    "php-http/curl-client": "^2.2",
+    "php-http/discovery": "*",
+    "php-http/guzzle7-adapter": "*",
+    "php-http/message": "^1.13",
+    "rap2hpoutre/similar-text-finder": "^0.2.0",
+    "shieldon/simple-cache": "^1.3",
+    "symfony/finder": "^5.1@beta",
+    "symfony/mailer": "^6.1",
+    "tmarois/filebase": "dev-master",
+    "symfony/rate-limiter": "^6.4",
+    "monolog/monolog": "^3",
+    "picqer/php-barcode-generator": "^2.4",
+    "thiagoalessio/tesseract_ocr": "^2.13",
+    "tectalic/openai": "^1.6"
+  },
+  "type": "library"
+}

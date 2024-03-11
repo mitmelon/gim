@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /asset/
+Disallow: /src/
+Disallow: /template/
+Disallow: /vendor/
+Disallow: /kernel/
+Disallow: /app/

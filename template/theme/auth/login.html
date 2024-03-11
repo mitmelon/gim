@@ -1,0 +1,27 @@
+              <div class="card card-md" style=" border-radius: 40px;">
+                <div class="card-body">
+                  <h2 class="h2 text-center mb-4">Login to your account</h2>
+                  <form action="#" method="post" autocomplete="off" class="signin">
+                    <div class="mb-3">
+                      <label class="form-label">Email address</label>
+                      <input type="email" name="email" id="email" class="form-control" placeholder="peterobi@email.com" autocomplete="off" required>
+                    </div>
+                    <div class="mb-2">
+                      <label class="form-label">
+                        Password
+                      </label>
+                      <div class="input-group input-group-flat">
+                        <input type="password" name="password" id="password" class="form-control" placeholder="123456789" autocomplete="off" required>
+                      </div>
+                    </div>
+                    [$csrf_root]
+                    <div class="form-footer">
+                      <button type="submit" id="login" class="btn btn-primary w-100">Login</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="text-center text-secondary mt-3">
+                Don't have an account? <a href="[$root]register" tabindex="-1">Register</a>
+              </div>
+           

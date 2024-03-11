@@ -1,0 +1,14 @@
+{
+    "DENIED": "Sorry! Access denied.",
+    "POST_ERROR": "Invalid data method or data entry is empty. Please make sure you are passing the correct data method.",
+    "REQUEST_ERROR": "Request type is invalid. Please make sure you are using the correct required type.",
+    "AUTH_ERROR": "Authorization declined. Please refresh the page and try again.",
+    "BLANK": "Sorry! this field cannot be left blank.",
+    "GENERAL_ERROR": "Sorry! general error occured. If this proble persist, please contact your service provider.",
+    "EXTERNAL_REJECTED": "Sorry direct access not allowed and authorization has been blocked.",
+    "TECHNICAL_ERROR": "Technical error occured. Our engineers has been notified about the issue. We are very sorry for the inconveniences.",
+    "LOGIN_BLOCKED": "Sorry! your account has been blocked. Please contact support to re-open your account.",
+    "ACCOUNT_IN_REVIEW": "Sorry! you cannot login because your account has not been verified. Please check your email to verify your account.",
+    "INVALID_LOGIN": "Sorry! your login credentials are invalid. You have few login attempts before your account is locked. Please try using the forgot code. Thanks.",
+    "LOCK_INFO": "Sorry! your account has been locked. Please contact support for more info."
+}

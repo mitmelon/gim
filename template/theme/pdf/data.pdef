@@ -1,0 +1,160 @@
+<html>
+<head>
+<style>
+ .holdings {
+            color: #f4bd0e;
+            font-size: 11px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif
+
+        }
+
+        .column {
+  float: left;
+  width: 50%;
+}
+
+        .holdLabels{
+            font-size: 11px;
+            font-family: 'Times New Roman', Times, serif
+        }
+
+
+        p {
+            font-family: 'Times New Roman', Times, serif
+        }
+
+        .styled-table thead tr {
+            background-color: #c5c5c5;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .styled-table th {
+            padding: 7px 4px;
+            border-color: #c5c5c5;
+            color: #2904AE
+        }
+
+        .styled-table td {
+            padding: 7px 4px;
+            border-color: #c5c5c5;
+            text-align: center;
+            font-size:24px;
+
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+
+        }
+
+        .styled-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        .styled-table tbody tr:last-of-type {
+            border-bottom: 2px solid #ededed;
+        }
+
+        .styled-table tbody tr.active-row {
+            font-weight: bold;
+
+        }
+    
+</style>
+</head>
+
+<body>
+<!--mpdf
+<htmlpagefooter name="myfooter">
+<div class="section">
+<div class="header">
+<p style="font-size:10px;">{#provider#}</p><br><br><br><br>
+<img src="data:image/png;base64,{#barcode#}"><br>
+<p style="font-size:10px;">Powered By GIM Software.</p>
+</div>
+</div>
+</htmlpagefooter>
+<sethtmlpageheader name="myheader" value="on" show-this-page="1" />
+<sethtmlpagefooter name="myfooter" value="on" />
+mpdf-->
+
+<div style="text-align: center;margin: 0; line-height: 0.1;">
+<img src="{#logo#}" width="80px">
+</div>
+<div class="column">
+<b>Identity ID:</b> {#id#}<br>
+</div>
+<div class="column">
+<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Score:</b> <span style="color:{#status_color#}">{#status#}</span><br>
+</div><br>
+
+
+<div class="row">
+<div class="column2">
+<span class="holdings">Name: </span> <span class="holdLabels">{#name#}</span><br>
+<span class="holdings">Email: </span> <span class="holdLabels">{#email#}</span><br>
+<span class="holdings">Phone: </span> <span class="holdLabels">{#phone#}</span><br>
+<span class="holdings">Date of birth: </span> <span class="holdLabels">{#dob#}</span><br>
+<span class="holdings">Gender: </span> <span class="holdLabels">{#gender#}</span><br>
+<span class="holdings">Race: </span> <span class="holdLabels">{#race#}</span><br>
+<span class="holdings">Primary Language: </span> <span class="holdLabels">{#lang#}</span><br>
+<span class="holdings">Origin State: </span> <span class="holdLabels">{#os#}</span><br>
+<span class="holdings">Origin Country: </span> <span class="holdLabels">{#oco#}</span><br>
+<span class="holdings">Residential Address: </span> <span class="holdLabels">{#address#}</span><br>
+<span class="holdings">Residential City: </span> <span class="holdLabels">{#rc#}</span><br>
+<span class="holdings">Residential State: </span> <span class="holdLabels">{#rs#}</span><br>
+<span class="holdings">Residential Country: </span> <span class="holdLabels">{#rco#}</span><br>
+<span class="holdings">Revisions: </span> <span class="holdLabels">{#rev#} times</span><br>
+<span class="holdings">Time Spent: </span> <span class="holdLabels">{#timeSpent#}</span><br>
+<span class="holdings">Date Created: </span> <span class="holdLabels">{#date_created#}</span><br>
+<span class="holdings">Date Updated: </span> <span class="holdLabels">{#date_updated#}</span><br>
+</div>
+<div class="column4">
+<img src="{#picture#}">
+</div>
+</div>
+<br>
+
+<div class="column2">
+<b>Biography</b>
+<p>{#about#}</p>
+</div>
+
+<div class="column4">
+<b>Photo accessment</b><br>
+{#photo_accessment#}
+</div>
+
+<br>
+<div class="column">
+<b>ID Card Data</b><br>
+{#card_data#}
+</div>
+
+<div class="column">
+<img src="{#idcard#}">
+</div>
+
+
+<br><br>
+
+
+<div class="column">
+<b>{#name#} Signature</b><br><br>
+<img src="{#signature#}" width="100px">
+</div>
+
+<div class="column">
+<b>Management Signature / Date / Stamp</b><br><br>
+___________________________________________
+</div>
+
+</div>
+<br><br>
+
+
+</div>  
+</body>
+</html>

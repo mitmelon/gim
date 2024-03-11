@@ -1,11 +1,13 @@
 <h1 align="center">GIM KYC Application
-<a href="#" target="_blank"><img src="https://github.com/mitmelon/gim/assets/55149512/07e0b69b-3a9a-4cb5-aa8e-004e6886d047" alt="gim - General Identity Management - This is a KYC system for collecting and processing personal information's, facial biometrics, ID Cards and Signature."></a></h1>
+<a href="https://gim.manomite.net" target="_blank"><img src="https://github.com/mitmelon/gim/assets/55149512/07e0b69b-3a9a-4cb5-aa8e-004e6886d047" alt="gim - General Identity Management - This is a KYC system for collecting and processing personal information's, facial biometrics, ID Cards and Signature."></a></h1>
 <div align="center">
 <a href="https://t.me/+7jfbiGKhn55iODlk">Join Telegram</a>
 <a href="https://twitter.com/manomitehq" ><img src="https://img.shields.io/twitter/follow/manomitehq.svg?style=social" /> </a>
 <br>
 
 <i>Welcome to the General Identity Management (Gim) application, an open-source solution for developers, individuals, and businesses seeking robust identity management and Know Your Customer (KYC) capabilities.</i>
+
+Look at the demo [GIM Demo](https://gim.manomite.net)
 
 <a href="https://github.com/mitmelon/gim/stargazers"><img src="https://img.shields.io/github/stars/mitmelon/gim" alt="Stars Badge"/></a>
 <a href="https://github.com/mitmelon/gim/network/members"><img src="https://img.shields.io/github/forks/mitmelon/gim" alt="Forks Badge"/></a>
@@ -91,6 +93,7 @@ Install Gim
 
     git clone https://github.com/mitmelon/gim
     cd gim
+    composer update
 
 <h3>Stage 3</h3>
 
