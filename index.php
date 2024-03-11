@@ -1,19 +1,17 @@
 <?php
 /**
  * Index entry [API REQUEST ONLY]
- * @url    https://eyemail.manomite.net
- * @docs   https://eyemail.manomite.net/docs
+ * @url    https://gim.manomite.net
  *
  * @version    1.0.0
  * @author     Manomite Limited
  *
  * @copyright  2024 Manomite Limited
- * @license    https://github.com/mitmelon/eye-mail/blob/master/LICENSE
+ * @license    https://github.com/mitmelon/gim/blob/master/LICENSE
  */
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Factory\AppFactory;
-use Slim\Routing\RouteCollectorProxy;
 use Manomite\Mouth\Neck;
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
@@ -29,9 +27,6 @@ ini_set('error_log', SYSTEM_DIR . '/index_errors.log');
 ini_set('log_errors_max_len', 1024);
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-$_SERVER['REQUEST_URI'] = substr($_SERVER['REQUEST_URI'], (strlen('/manomite/gim')));
-
-
 try {
 
     $app = AppFactory::create();
@@ -40,14 +35,8 @@ try {
         $neck = new Neck();       
         $html = $neck->index();
         $response->getBody()->write($html);
-       
         return $response;
     });
-
-
-   
-
-
 
     $app->get('/index', function (Request $request, Response $response, $args) {
         $neck = new Neck();       
@@ -68,16 +57,6 @@ try {
         $response->getBody()->write($html);
         return $response;
     });
-
-    $app->get('/test', function (Request $request, Response $response, $args) {
-        $neck = new Neck();       
-        $html = $neck->test();
-        $response->getBody()->write($html);
-        return $response;
-    });
-
-   
-  
     $app->run();
 } catch (Throwable $e) {
     http_response_code(700);
